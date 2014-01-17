@@ -1,0 +1,65 @@
+Lab 1 Deloppgave 2
+mkdir (make directory):
+Dette betyr med andre ord å lage et directory eller en mappe ved hjelp av terminalen.
+
+cd (change directory):
+Dette betyr med andre ord å bytte mappe man arbeider i. For eksempel dersom man er i user/sigve/, så kan man skrive:
+	cd desktop
+Da havner man i user/sigve/desktop.
+
+ls (list directory):
+Dette betyr med andre ord å få opp en liste med alt som er i den valgte mappen. For eksempel dersom man er i user/sigve/, så kan man skrive:
+	ls
+Da vises alle filer og mapper som er i mappen "sigve".
+
+ls -l:
+Denne kommandoen printer en liste av innholdet i mappen, men med mer data, som blant annet: Tillatelser, eier av filen, filgruppe, filstørrelse, endringstid og filnavn.
+
+ls -la:
+Denne kommandoen brukes for å vise detaljert informasjon om alle elementer (synlige og usynlige) i den valgte mappen. -a betyr at alle filer, mens -l er for å vise detaljene.
+
+pwd (print working directory):
+Dette betyr med andre ord å vise hvor i mappe hierarkiet man befinner seg. Dersom man er i user/sigve/desktop og skriver:
+	pwd
+Da vises nettopp user/sigve/desktop.
+
+Pipes and redirection:
+Dette er et konsept som går ut på at man forandre kommandoer slik at man selv bestemmer hvor input og output skal gå. Eksempler:
+
+	$|$: Tegnet mellom dollartegnene er en "pipe". På denne måten kan man "føre" 	kommandoen på venstresiden videre til høyresiden. På en måte kan man kalle dette 	for en makro da det som skjer på høyresiden tar i bruk det som skjer på venstre. 	Man kan legge flere "pipes" etter hverandre for å få en lengre kjede me 	kommandoer.
+
+	$>$: Tar outputten i kommandoen på venstresiden, og skriver det over til filen på 	høyresiden. Dette kan være en måte å kopiere innholdet i en fil over til en annen.
+
+	$>>$: Tar outputten på venstresiden og appender (føyer) det til filen på høyresiden.
+
+grep (eller select-string i windows):
+Denne kommandoen brukes for å finne tekst inni filer (string). For eksempel dersom man har laget to filer; newfile.txt og oldfile.txt. I newfile.txt har man skrevet "This is a new file", mens i oldfile.txt har man skrivd "This is an old file." Da kan man skrive følgende i terminalen (på windows):
+	For å finne filer som inneholder new og .txt
+	>select-string new *.txt
+	newfile.txt:1:This is a new file.
+	newfile.txt:2:This is a new file.
+	newfile.txt:3:This is a new file.
+	For å finne filer som inneholder old og .txt
+	>select-string old *.txt
+	oldfile.txt:1:This is a old file.
+	oldfile.txt:2:This is a old file.
+	oldfile.txt:3:This is a old file.
+
+	For å finne filer som inneholder file og .txt
+	>select-string file *.txt
+	newfile.txt:1:This is a new file.
+	newfile.txt:2:This is a new file.
+	newfile.txt:3:This is a new file.
+	oldfile.txt:1:This is a old file.
+	oldfile.txt:2:This is a old file.
+	oldfile.txt:3:This is a old file.
+
+cat (stream a file):
+Denne kommandoen putter alt som står i filen ut på terminalvinduet. Dersom du for eksempel skriver:
+	cat ex12.txt,ex13.txt
+Da åpner terminalen begge filene, og viser dem i terminalvinduet, uten noe mellomrom imellom de to filene som vises.
+
+less (view a file):
+Brukes for å se en fil. Dersom man for eksempel skriver:
+	less ex12.txt
+Så vises tekstfilen slik den er skrevet i dokumentet.
