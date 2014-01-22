@@ -1,0 +1,17 @@
+6.1)	Done
+
+6.2)	String inside a string:
+	Line 7: print y
+	Line 9: print "I said: %r." % x
+	Line 10: print "I also said: '%s'." % y
+	Line 15: print joke_evaluation % hilarious
+
+6.3)	There are 6 print statements in the code, but only 4 of them has a string within a string. 
+	The remaining 2 prints are as follows: 
+	print x
+	print w + e.
+
+	"print x" only refers to an external number.
+	"print w + e" prints a string after another, not a string within a string.
+
+6.4)	The two variables are strings. When you add them together they make a longer line of text. 

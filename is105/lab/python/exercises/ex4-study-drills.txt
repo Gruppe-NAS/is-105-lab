@@ -1,0 +1,14 @@
+The error tells me that we have not made a variable called "car_pool_capacity" yet". This might be because we have made a syntax error somewhere, or because we have simply forgotten about it.
+
+
+4.1) 	4.0 is a floating-point number, which is for decimal use, while 4 is an interger number. They are 		pretty much the same, but 4.0 is a more accurate way of writing 4.
+
+4.2)	Floating-point numbers are slower and less accurate than fixed-point numbers, but they can handle a 		larger range of numbers. Some floating-point numbers are: 3.0, -111.5 and 3E-5.
+
+4.3)	Comments made in ex4.py
+
+4.4)	I now know that = makes names for things (variables).
+
+4.5)	I now know that _ is called underscore, and is used as a fictive space.
+
+4.6)	Done

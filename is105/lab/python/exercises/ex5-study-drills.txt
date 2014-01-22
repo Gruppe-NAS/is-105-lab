@@ -1,0 +1,10 @@
+5.1)	Done
+
+5.2)	If you make a variable eyes = 'Blue', and use the %r, it will print everything, including the ''. If 		you use the %s, it will only print out Blue.
+
+5.3)	%s = used for strings
+	%d = used for interger numbers
+	%f = used for floating points
+	%r = prints everything
+
+5.4)	ex5-calculator.py

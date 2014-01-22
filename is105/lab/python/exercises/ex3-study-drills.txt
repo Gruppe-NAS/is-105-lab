@@ -1,0 +1,4 @@
+print "This is a test of the Python calculator."
+print "What is: -111.5 + 456.3 + 789.1?"
+print -111.5 + 456.3 + 789.1
+print "AMAZING!"
