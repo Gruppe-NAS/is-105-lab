@@ -1,0 +1,16 @@
+Lab 2 Deloppgave 2
+
+Operator precedence in Python:
+
+«Operator precedence» definerer hvilke uttrykk som har prioritet eller forrang foran andre uttrykk. Dette blir på samme måte som i matematikken hvor man regner ut uttrykk i parenteser før det andre.
+
+Ones' complement:
+
+Det er den inverse verdien av en binær kode. Eksempelvis, dersom vi tar det binære versjonen av 1, som er 0001, og inverserer det til -1, så blir den binære versjonen 1110.
+
+Two's complement:
+
+Er en regnemåte med binær kode som eliminerer negativ 0. Eksempelvis, dersom vi tar 4+5 i 3-bits tall får vi 001 som resultat. Hvis vi starter på 000 og går 4 hopp + 5 hopp rundt til høyre ender vi opp på 001, som i 3-bits binær er tallet 1.
+
+000 ->001 ->010 ->011 ->100 ->101 ->110 ->111
+ 
