@@ -1,0 +1,7 @@
+11.1)	If the prompt argument is present, it is written to standard output without a trailing newline. The function then reads a line from input, converts it to a string, and returns that.
+
+11.2)	ex11.2.py
+
+11.3)	ex11.3.py
+
+11.4)	Done

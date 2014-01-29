@@ -1,0 +1,11 @@
+17.1)	Done
+
+17.2)	Done
+
+17.3)	Done
+
+17.4)	Cat: Concatinates the file together. Used mostly to read what is in the file.
+
+17.5)	I have CentOS, not Windows
+
+17.6)	output.close() is not in the file, you sir, are mistaken...

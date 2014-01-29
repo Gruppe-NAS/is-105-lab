@@ -1,0 +1,24 @@
+Tested out in ex11.2.py
+
+12.1)	It gives a brief explanation about the given command.
+
+12.2)	Done
+
+12.3)	Done
+
+12.4)	Open:
+	Open a file using the file() type, returns a file object.  This is the
+	preferred way to open a file.  See file.__doc__ for further information.
+
+	File:
+	Open a file.  The mode can be 'r', 'w' or 'a' for reading (default),
+	writing or appending.  The file will be created if it doesn't exist
+	when opened for writing or appending; it will be truncated when
+	opened for writing.  Add a 'b' to the mode for binary files.
+
+	Os:
+	OS routines for Mac, NT, or Posix depending on what system we're on.
+
+	Sys:
+	This module provides access to some objects used or maintained by the
+	interpreter and to functions that interact strongly with the interpreter.
