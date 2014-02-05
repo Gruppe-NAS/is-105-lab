@@ -1,0 +1,12 @@
+Deloppgave 2, Lab 3
+
+	- Regular expression: Is a term used in theoretical computer science. It is mostly used to find or 			replace strings and patterns in a text. For instance, you might type; (?<=\.) {2,}(?=[A-Z]) to match at least two spaces occurring after period (.) and before an upper case letter.
+
+	- Import (Python): Import is used to import different libraries in Python. For example the sys library.
+
+	- "script"-language: Is a programming language that supports scripts. An example of this might be the 			command line in windows, or terminal in linux/ios. By typing a set of commands, the program interprets them and returns a result relative to what has been typed.
+
+	- Perl: Is a programming language developed by Larry Wall. It was originally created as a general-purpose Unix scripting language to make report processing easier.
+
+	- Bash: Is a Unix shell. It is used the same way as the command line in windows, namely to run command scripts and open files. 
+
