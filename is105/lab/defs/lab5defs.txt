@@ -1,0 +1,17 @@
+Viktigste prosesstilsdander i Linux OS:
+	- R: Running
+	- D: Uninterruptible sleep
+	- S: Interruptible sleep
+	- Z: Zombie, terminert, men foreldre er ikke døde
+	- T: Stopped
+
+Kommandoer i Linux:
+	- python <filnavn>.py: starter en python fil med python.
+	- javac <filnavn>.java: leser javafilen og lager en kompilert java klassefil.
+	- java <filnavn>.class: kjører en kompilert java fil.
+	- gcc -o <filnavn> <filnavn>.c: plasserer output fra den ene filen til den andre.
+	- sleep 100 &: putter programmet i en 100 sekunders sleep state.
+	- cat /proc/cpuinfo: er en kort, read-only, text fil med informasjon om maskinens CPU.
+
+Multiprogrammering:
+	- Er teknikken for å kjøre flere programmer samtidig med hensikt å benytte den fulle kapasiteten i CPUen, når en 		prosess er ferdig med i/o operasjonene sine hopper CPUen rett på neste oppgave mens prosessoren fullfører forrige 		oppgave.

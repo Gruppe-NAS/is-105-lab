@@ -1,0 +1,19 @@
+Deloppgave 2, Lab 4
+
+	- API: Application Programming Interface. API is a set of rules, on a higher leven than the OS. It kan be viewed as a library with routines, data structure, object classes og variables.
+
+	- IDE: Integrated Development Environment. Is a software applciation that provides comprehensive facilities to computer programmers for software development.
+
+	- ps: Process Status. Displays the currently-running processes within Unix..
+
+	- top: Top is a program similar to ps, except it provides a real-time view of the running processes.
+
+	- df: Disk Free. Is a Unix program used to display the amount of available disk space for filesystems on which the invoking user has appropriate read access.
+
+	- kill: Is a command used to stop a running process.
+
+	- netstat: Network Statistics. Is a command-line tool used for displaying network connections, routing tables, and a number of network interfaces, as well as network protocol statistics.
+
+	- ifconfig: Interface Configuration. Is a system administration utility in Unix-like os, used to confiure, control, and query TCP/IP network interface parameters from a comman line interface.
+
+	- who: Is a Unix command which is being used to display a list of users who are currently logged into the computer.
